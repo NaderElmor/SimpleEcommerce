@@ -1,0 +1,19 @@
+# noNav variable
+*******************
+- This variable to control show/hide the navbar. if a page has this variable then
+the navbar.php page will not be included in it.
+
+
+
+# pageTitle variable
+*******************
+- This variable to type the title of the page dynamically. if a page has this variable then
+the type the value of it.if not type the default
+
+
+
+===============================
+==  Functions Documentation  ==
+===============================
+/* getAllFrom() is used to get any data we want from any table  */
+- function getAllFrom($column, $table, $where=null, $orderbyColumn, $orderASCorDESC='DESC')

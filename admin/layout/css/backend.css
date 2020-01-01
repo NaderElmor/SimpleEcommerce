@@ -1,0 +1,460 @@
+/* start main rules */
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.control
+{
+  width:275px;
+}
+
+.asterisk {
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 3px;
+  color: #b11607;
+}
+/* end main rules */
+
+/* start login form */
+.login {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #ccc;
+  background-color: #111;
+  border-radius: 15px;
+}
+
+.login h4 {
+  color: #f6f6f6;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+.login input {
+  margin-bottom: 10px;
+}
+
+.login .form-control {
+  background-color: #eaeaea;
+}
+
+.login .btn {
+  background-color: #008dde;
+}
+/* end login form */
+
+/* start bootstrap edit */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.nav > li > a,
+.navbar-brand {
+  padding: 15px 12px;
+}
+
+.navbar-brand {
+  font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu {
+  background-color: #9b59b6;
+}
+
+.dropdown-menu {
+  min-width: 180px;
+  padding: 0;
+  font-size: 1em;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #8e44ad;
+}
+
+.form-control {
+  position: relative;
+}
+/* end bootstrap edit */
+
+
+
+/*Start dashboard*/
+
+.stats_container .stats {
+  color: #f9f9f9;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 15px;
+  box-shadow: 5px 10px 15px #ccc;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 170px;
+
+}
+.stats_container .stats  .ico
+{
+  position: absolute;
+  left: 15px;
+  font-size: 55px;
+  top:40px;
+  margin-right: 5px;
+}
+
+.stats_container .stats .info
+{
+  float: right;
+  min-width: 146px;}
+
+
+.stats_container .stats a {
+  color: #f9f9f9;
+}
+
+.stats_container .stats a:hover {
+  text-decoration: none;
+}
+.stats_container .stats span {
+  display: block;
+  font-size: 60px;
+}
+
+.stats_container .st-members {
+  background-color: #6c5ce7;
+}
+
+.stats_container .st-items {
+  background-color: #e84393;
+}
+.stats_container .st-pending {
+  background-color: #00b894;
+}
+.stats_container .st-comments {
+  background-color: #e17055;
+}
+
+.latest_container {
+  margin-top: 35px;
+}
+.latest_container .panel-heading
+{
+  font-weight: bold;
+}
+.toggleplusminus
+{
+  color: #999;
+}
+
+.toggleplusminus:hover
+{
+  color: #000;
+  cursor: pointer;
+}
+.latest_container .panel {
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.latest_container .panel-body {
+  padding: 0;
+  height: 300px;
+  overflow: scroll;
+}
+
+.latest-members {
+  margin-bottom: 0;
+}
+
+.latest-members li {
+  padding: 8px 10px;
+}
+
+.latest-members li:nth-child(odd) {
+  background-color: #eee;
+
+}
+.latest-members .latest-btn
+{
+  position: relative;
+  top: -2px;
+  height: 27px;
+  line-height: 13px;
+  margin-left: 5px;
+}
+ 
+.latest_container .commentBox
+{
+  margin: 20px 0 10px;
+}
+
+.latest_container .commentBox .member-n,
+.latest_container .commentBox .member-c
+{
+  float: left;
+}
+
+.latest_container .commentBox .member-n
+{
+  margin-right: 7px;
+  width: 80px;
+  text-align: center;
+  position: relative;
+  top:10px;
+  color: #6c5ce7
+}
+
+.latest_container .commentBox .member-n:hover a
+{text-decoration: none}
+
+.latest_container .commentBox .member-c
+{
+  width: calc(100% - 100px);
+  background-color: #b4b4b4;
+  padding: 10px;
+  position: relative;
+}
+
+.latest_container .commentBox .member-c:before
+{
+  content:"";
+  display: block;
+  position: absolute;
+  left: -28px;
+  top:5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color:transparent #b4b4b4 transparent transparent;
+  border-width:15px;
+
+}
+
+
+/*End dashboard*/
+
+/* start Members page */
+h1 {
+  font-size: 55px;
+  color: #777777;
+}
+
+.form-group input[type="submit"] {
+  width: 15%;
+}
+
+.showPass {
+  position: absolute;
+  top: 9px;
+  right: 30px;
+  cursor: pointer;
+  color: #bcbcbc;
+}
+
+
+.manage_table thead {
+  background-color: #444;
+
+  color: #f5f5f5;
+}
+
+.manage_table td img {
+  width: 50px;
+  height: 50px;
+}
+
+/* end Members page */
+
+/* start categories page */
+.radiocat {
+  padding: 7px;
+}
+
+.radiocat label {
+  margin-right: 50px;
+}
+
+.cats .panel-heading
+{
+    color: #959595;
+    font-weight: bold;
+}
+
+.cats .panel-body {
+  padding: 0;
+}
+
+.cats .cat h3 {
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color:#6a6a6a;
+}
+
+.cats .cat .full-view {
+    margin: 0;
+  }
+  
+  
+.cats .cat .full-view p {
+    margin: 10px 0;
+    color:#707070;
+  }
+  
+
+.cats .cat {
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.cats .cat:hover {
+    background-color: #EEE
+  }
+
+.cats .cat:hover .hidden-buttons { 
+    right: 10px;
+
+  }
+
+.cats .cat .hidden-buttons {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  position: absolute;
+  top: 10px;
+  right: -130px;
+}
+
+.cats .cat .hidden-buttons a {
+  margin-right: 5px;
+}
+
+.cats hr {
+  border: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cats:last-of-type ~ hr {
+  display: none;
+}
+
+.cats .cat .vis {
+  color: #f9f9f9;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #f44336;
+}
+
+.cats .cat .comment {
+  color: #f9f9f9;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #9c27b0;
+}
+
+.cats .cat .ad {
+  color: #f9f9f9;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #212121;
+}
+
+.cats .option
+{
+    color:#000;
+    font-weight: bold;
+}
+
+.cats .option a
+{
+    color: #777
+}
+
+
+.cats .option span
+{
+    color: #777;
+    cursor: pointer;
+}
+
+.cats .option a:hover
+{
+    text-decoration: none;
+    cursor: pointer
+
+}
+.cats .option .active 
+{
+    color: #000;
+}
+.sub-head {
+    margin: 10px 0 -12px 1px;
+    font-weight: bold;
+    color: #22ab79;
+}
+
+.sub-cats
+{
+  margin: 20px 0 20px ;
+}
+
+.sub-cats li
+{
+  margin-left: 15px;
+    display: inline-block;
+}
+
+
+.sub-cats li:before
+{
+  content: "- ";
+}
+
+.sub-cats .sub-icon
+{
+    margin-left: 7px;
+    border-radius: 50%;
+}
+
+.custom-file
+{
+  width: 32%;
+  height: 100%;
+  position: relative;
+  font-weight: bold;
+}
+
+input[type=file] {
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+/* end categories page */

@@ -1,0 +1,386 @@
+/* start main rules */
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+h2{
+  color: #707070;
+  font-weight: bold;
+}
+/* end main rules */
+
+
+/* start login form */
+.login {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #ccc;
+  background-color: #111;
+  border-radius: 15px;
+}
+
+.login h4 {
+  color: #f6f6f6;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+.login input {
+  margin-bottom: 10px;
+}
+
+.login .form-control {
+  background-color: #eaeaea;
+}
+
+.login .btn {
+  background-color: #008dde;
+}
+/* end login form */
+
+/* start bootstrap edit */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.nav > li > a,
+.navbar-brand {
+  padding: 15px 12px;
+}
+
+.navbar-brand {
+  font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu {
+  background-color: #9b59b6;
+}
+
+.dropdown-menu {
+  min-width: 180px;
+  padding: 0;
+  font-size: 1em;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #8e44ad;
+}
+
+.form-control {
+  position: relative;
+}
+/* end bootstrap edit */
+
+
+/* start header */
+.upper-bar
+{
+  padding: 10px;
+}
+
+.myimg
+{
+  width: 35px;
+  height: 35px;
+
+
+}
+
+.open>.dropdown-menu {
+  display: block;
+  background-color: #332f2fe8;
+  border-radius: 3px;
+}
+
+.upper-bar li:hover a{
+  background-color: #4d4d4d;
+  transition: 0.7s ease-in-out all;
+  padding-left: 25px;
+
+}
+
+/* end header */
+
+/* start login form */
+
+.login-page form {
+  max-width: 300px;
+  margin: auto;
+
+}
+
+
+.input-container
+{
+  position: relative;
+
+}
+.fuser,.fpass
+{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+
+}
+
+.login-page .active
+{
+  color: #b11607;
+}
+
+.login-page span
+{
+  cursor: pointer;
+}
+
+.hide{
+
+  display: none;
+}
+
+.btn{
+  font-weight: bold;
+  opacity: 0.85;
+
+}
+
+.btn:hover
+{
+  opacity: 1;
+}
+/* end login form */
+
+/* start profile  */
+.block{
+  margin: 20px 0 0;
+
+}
+
+.information ul
+{
+  margin: 0;
+  padding:0;
+}
+
+.information ul li
+{
+  padding: 10px;
+}
+
+.information ul li:nth-child(odd)
+{
+  background-color: #EEEEEE;
+}
+
+.information ul span
+{
+  display: inline-block;
+  width: 120px;
+}
+
+.information .btn
+{
+    margin-top: 10px;
+}
+.item-box .date
+{
+  text-align: right;
+  font-size: 15px;
+  color: #5f5f5f;
+}
+/* end profile  */
+
+/* start itembox  */
+.item-box
+{
+  height: 436px;
+  max-height: 436px;
+  overflow: hidden;
+}
+.item-box .price-label
+{
+  height: 20px;
+  background-color: #02C812;
+  padding: 10px;
+  width: 60px;
+  height: 32px;
+  line-height: 14px;
+  position: relative;
+  left: -5px;
+  top: 32px;
+  color: #f4f4f4;
+  border-radius: 1px;
+
+
+}
+.not-approved {
+  background-color: #cc7979;
+  color: #FFF;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  top: 3px;
+
+}
+
+
+.thumbnail a>img, .thumbnail>img {
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 65%;
+}
+
+/* end itembox  */
+
+/* Start item page  */
+
+.item-img{
+  height: 375px;
+  width: 265px;
+  margin-top: 24px;
+}
+
+}
+.item-info h2
+{
+  padding: 10px;
+
+}
+.item-info p
+{
+  padding: 10px;
+
+}
+.item-info ul li
+{
+  padding: 10px;
+
+}
+
+.item-info ul li:nth-child(odd)
+{
+  background-color: #dcdada;
+}
+
+.item-info ul span
+{
+  display: inline-block;
+  width: 120px;
+}
+
+.item-info .date
+{
+  text-align: right;
+  font-size: 15px;
+  color: #5f5f5f;
+}
+
+.items-comment h3
+{
+  margin: 0 0 10px;
+}
+
+.items-comment textarea
+{
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+  resize: none;
+  text-indent: 4px;
+
+}
+
+.comment-box
+{
+  margin-bottom: 20px;
+}
+
+.comment-box img
+{
+  max-width: 100px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+.comment-box .lead
+{
+  background-color: #d0cece;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: -26px;
+
+}
+
+.comment-box .lead:before
+{
+  content: '';
+  width: 0;
+  height: 0;
+  border-width: 22px;
+  border-style: solid;
+  border-color: transparent #d0cece transparent transparent;
+  position: absolute;
+  left: -43px;
+  top: 2px;
+
+
+
+}
+
+
+/* end item page  */
+
+.custom-file
+{
+  width: 32%;
+  height: 100%;
+  position: relative;
+  font-weight: bold;
+}
+
+
+input[type=file] {
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+/* Start custom framework */
+.custom-hr
+{
+  border-top: 2px solid #CCC;
+}
+/* End custom framework */
+
+
+
+
+
+
+
+
